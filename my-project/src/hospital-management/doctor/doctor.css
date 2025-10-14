@@ -1,0 +1,67 @@
+*{
+    hover:none;
+}
+/* for doc name and conetnt */
+.box1 {
+            height: 500px;
+            width: 100%;
+            display: flex;              
+            justify-content:space-around;
+            align-items: center;        
+            padding: 10px;             
+            box-sizing: border-box;    
+         }
+         .special{
+            margin-bottom: 20px;
+         }
+        .special h2{
+            border-bottom: 3px solid black;
+        }
+
+        .general1{
+            margin-left: 10px;
+            padding: 5px;
+            margin-top: 15px;
+            border: 3px solid rgb(30, 30, 30);
+
+        }
+        .general1 img{
+            height: 150px;
+            width: 200px;
+            padding-left: 5px;
+        }
+        .border{
+            border-top: 3px solid black;
+        }
+        .border p{
+            color: black;
+            font-size: 20px;
+        }
+        .timing p{
+            font-size: 25px;
+            font-weight: bold;
+            color: black;
+        }
+        .timing button{
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            background-color: rgb(243, 198, 140);
+            margin-left: 10px;
+            margin-right: 60px;
+        }
+        #button{
+            color: white;
+            height: 40px;
+            background-color: rgb(248, 105, 44);
+            display: block;
+            margin-top: 10px;
+            margin-left: 20%;
+        }
+        #button:hover{
+            background-color: rgb(244, 70, 11);
+            color: black;
+            height: 70px;
+            font-size: 25px;
+
+        }

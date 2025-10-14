@@ -1,0 +1,42 @@
+form{
+    margin-left: 30%;
+    display: grid;
+    grid-template-columns: repeat(2);
+    grid-template-rows: (repeat(4));
+}
+input{
+    height: 30px;
+    width: 400px;
+    border-radius: 5px;
+}
+p{
+    font-size: 30px;
+    color: rgb(47, 210, 250);
+    flex-direction: column;
+    display: block;
+}
+textarea{
+    height: 30px;
+    width: 400px;
+    border-radius: 10px;
+}
+.slot{
+    background-color: rgb(17, 17, 232);
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 240px;
+    height: 60px;
+    display: flex;
+    font-size: 20px;
+    display: flex;
+    margin-left:7%;
+    border: none;
+    align-items: center;
+    justify-content: center;
+}
+.slot:hover{
+    background-color: blue;
+    font-size: 25px;
+
+}
