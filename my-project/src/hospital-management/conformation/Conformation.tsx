@@ -1,5 +1,7 @@
 function Confirmation() {
-  const userInfo = JSON.parse(localStorage.getItem("userInfo"));
+  const storedUser = localStorage.getItem("userInfo");
+  const userInfo = storedUser ? JSON.parse(storedUser) : null;
+
   return (
     <div style={{ padding: "20px" }}>
       <h2>✅ Appointment Confirmed</h2>

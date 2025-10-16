@@ -12,11 +12,12 @@ function Contact() {
 
   const navigate = useNavigate();
 
-  const handleChange = (e) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
+ const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
 
-  const handleSubmit = (e) => {
+
     e.preventDefault();
     localStorage.setItem("userInfo", JSON.stringify(formData));
     navigate("/doctors");

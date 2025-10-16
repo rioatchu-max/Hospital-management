@@ -12,11 +12,12 @@ function Home(){
       const containerRef = useRef(null);
 
   const scrollleft = () => {
-    containerRef.current.scrollBy({ left: -250, behavior: "smooth" });
+    containerRef.current?.scrollBy({ left: 250, behavior: "smooth" });
   };
 
   const scrollright = () => {
-    containerRef.current.scrollBy({ left: 250, behavior: "smooth" });
+    containerRef.current?.scrollBy({ left: -250, behavior: "smooth" });
+
   };
 
     return(
