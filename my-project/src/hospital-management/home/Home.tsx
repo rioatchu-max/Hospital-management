@@ -9,7 +9,7 @@ import { faPhoneVolume} from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faInstagram, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import Contact from "../contact/Contact";
 function Home(){
-      const containerRef = useRef(null);
+  const containerRef = useRef<HTMLDivElement>(null);
 
   const scrollleft = () => {
     containerRef.current?.scrollBy({ left: 250, behavior: "smooth" });
