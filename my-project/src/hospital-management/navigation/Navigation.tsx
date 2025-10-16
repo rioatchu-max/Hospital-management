@@ -16,7 +16,7 @@ const Navigation = () => {
         <Link className="card" to="/">Home</Link>
         <Link className="card" to="/Specialties">Specialties</Link>
         <Link className="card" to="/doctors">Doctors</Link>
-        <Link className="card" to="/aboutus">About</Link>
+        <Link className="card" to="/about">About</Link>
         <Link className="card" to="/contact">Contact</Link>
         <FontAwesomeIcon className="menu-bar" icon={faBars}  />
 
