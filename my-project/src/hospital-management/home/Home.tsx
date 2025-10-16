@@ -139,7 +139,7 @@ function Home(){
       
         <div className="bar-for-extra">
           <div>
-          <img src="aara.png"/>
+          <img  src="https://media.istockphoto.com/id/471629610/vector/caduceus-medical-symbol.jpg?s=612x612&w=0&k=20&c=jLnfdQQphRwsmm6wo0O80sEo-5PhbEY4PHmQgBiRkq0="/>
           <div className="social-media-icon">
                     <FontAwesomeIcon className="loc-icon-face" icon={faFacebook}  />
                     <FontAwesomeIcon className="loc-icon-insta" icon={faInstagram}  />
